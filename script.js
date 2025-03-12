@@ -1,14 +1,19 @@
-// const text = "Creafting Seamless and Engaging Experiences";
-// let i = 0;
-// function typeEffect() {
-//     if(i<text.length){
-//         document.getElementById("typing").textContent+=text.charAt(i);
-//         i++;
-//         setTimeout(typeEffect, 10);
-//     }else{
-//         document.getElementById("typing").style.borderRight="none";
-//     };
-// };
+document.addEventListener('scroll', function() {
+  const reveals = document.querySelectorAll('.reveal');
+  
+  for (const reveal of reveals) {
+    const windowHeight = window.innerHeight;
+    const elementTop = reveal.getBoundingClientRect().top;
+    const elementVisible = 5;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveal.classList.add('visible');
+    } else {
+      reveal.classList.remove('visible');
+    }
+  }
+});
+
 
 
 function form(){
