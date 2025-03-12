@@ -19,6 +19,37 @@ document.addEventListener('scroll', function() {
 function form(){
     document.getElementById("modal").style.display="block";
 }
+let currentIndex = 0;
+        const totalSlides = 3;
+        const carousel = document.getElementById('carousel');
+        const dots = document.querySelectorAll('.dot');
+
+        function moveToSlide(index) {
+            currentIndex = index;
+            updateCarousel();
+        }
+
+        function updateCarousel() {
+            carousel.style.transform = `translateX(-${currentIndex * 300}px)`;
+            dots.forEach((dot, i) => {
+                dot.classList.toggle("active", i === currentIndex);
+            });
+        }
+
+        function autoSlide() {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateCarousel();
+        }
+
+        let slideInterval = setInterval(autoSlide, 3000);
+
+        document.querySelector('.carousel-container').addEventListener("mouseenter", () => {
+            clearInterval(slideInterval);
+        });
+
+        document.querySelector('.carousel-container').addEventListener("mouseleave", () => {
+            slideInterval = setInterval(autoSlide, 3000);
+        });
 
 
 function ham(){
