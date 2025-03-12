@@ -25,7 +25,7 @@ body{
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    padding:20px 0;
+    padding:10px 0;
 }
 .contain{
     display:flex;
@@ -155,7 +155,7 @@ box-shadow: 0px 0px 0px 2px gray;
     font-weight: bolder;
 }
 .tiny-space{
-    height:0.5rem;
+    height:0.2rem;
 }
 .profile-pic{
     width:200px;
