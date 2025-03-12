@@ -18,6 +18,9 @@ body{
     z-index: 1000;
     background: #000;;
 }
+.point{
+    cursor:pointer;
+}
 .container{
     display:flex;
     width:100%;
