@@ -95,11 +95,9 @@
     .text-con{
         margin-top:5%;
     }
-     #slide1, #slide2, #slide3 {
-            max-width:100%; 
-            height: auto;
-            margin:0 8px;
-        }
+
+    .break{
+        width:50%;
 
 }
 
