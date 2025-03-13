@@ -1,7 +1,6 @@
 const texts = [
                         'seamless',
-                        'engaging',
-                        'efficiently'
+                        'engaging'
                     ];
                     var current = 0;
                 
