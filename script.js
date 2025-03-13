@@ -15,10 +15,6 @@ document.addEventListener('scroll', function() {
 });
 
 
-
-function form(){
-    document.getElementById("modal").style.display="block";
-}
 let currentIndex = 0;
         const totalSlides = 3;
         const carousel = document.getElementById('carousel');
@@ -50,6 +46,12 @@ let currentIndex = 0;
         document.querySelector('.carousel-container').addEventListener("mouseleave", () => {
             slideInterval = setInterval(autoSlide, 3000);
         });
+
+
+
+function form(){
+    document.getElementById("modal").style.display="block";
+}
 
 
 function ham(){
