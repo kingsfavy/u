@@ -119,36 +119,3 @@ document.addEventListener('scroll',function(){
 })
 
 
-const texts = [
-        'engaging',
-        'efficiently',
-        'seeamless'
-    ];
-    let currentIndex = 0;
-
-    function changeText(newText) {
-        const changeElement = document.getElementById('change');
-        
-        // Apply the scroll-down animation to the current text
-        changeElement.classList.remove('scroll-up');
-        changeElement.classList.add('scroll-down');
-
-        // Wait for the scroll-down animation to complete before changing the text
-        setTimeout(() => {
-            changeElement.textContent = newText;
-            
-            // Apply the scroll-up animation to the new text
-            changeElement.classList.remove('scroll-down');
-            changeElement.classList.add('scroll-up');
-        }, 800); // Match the duration of the scroll-down animation
-    }
-
-    function startScrolling() {
-        setInterval(() => {
-            currentIndex = (currentIndex + 1) % texts.length;
-            changeText(texts[currentIndex]);
-        }, 2000);
-    }
-
-    // Start the text scrolling when the page loads
-    document.addEventListener('DOMContentLoaded', startScrolling);
