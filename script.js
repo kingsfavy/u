@@ -156,3 +156,11 @@ document.addEventListener('scroll',function(){
 })
 
 
+document.querySelectorAll(".btn3").forEach(button => {
+    button.addEventListener("click", function () {
+        document.querySelectorAll(".btn3").forEach(btn => btn.classList.remove("active"));
+        this.classList.add("active");
+    });
+});
+
+
