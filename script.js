@@ -24,7 +24,7 @@ const texts = [
 
     function startScrolling() {
         setInterval(() => {
-            currentIndex = (current + 1) % texts.length;
+            current = (current + 1) % texts.length;
             changeText(texts[current]);
         }, 2000);
     }
