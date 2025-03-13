@@ -54,6 +54,36 @@
     .log{
         padding: 4px;
     }
+            .carousel-container {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            position: relative;
+        
+        }
+        #carousel {
+            display: flex;
+            width: 245%; /* Ensure all slides are in a row */
+            transition: transform 0.8s ease-in-out;
+        }
+
+        /* Dots */
+        .dots {
+            text-align: center;
+            margin-top: 1px;
+        }
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: gray;
+            border-radius: 50%;
+            display: inline-block;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .dot.active {
+            background-color:#6200ea;
+        }
 }
 
 
