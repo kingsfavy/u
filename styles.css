@@ -23,6 +23,7 @@ body{
 }
 #change{
     color:#6200ea;
+    font-weight:600;
 }
 .container{
     display:flex;
