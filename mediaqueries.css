@@ -99,6 +99,9 @@
     .break{
         width:50%;
     }
+    #slide1,#slide2,#slide3{
+        width:70%;
+    }
 }
 
 
