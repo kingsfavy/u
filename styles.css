@@ -449,11 +449,6 @@ textarea{
             width: 245%; /* Ensure all slides are in a row */
             transition: transform 0.8s ease-in-out;
         }
-        #slide1, #slide2, #slide3 {
-            width: 270%; /* Each slide should match container width */
-            height: auto;
-margin:0 8px;
-        }
 
         /* Dots */
         .dots {
