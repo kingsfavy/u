@@ -96,7 +96,7 @@
         margin-top:5%;
     }
      #slide1, #slide2, #slide3 {
-            min-width:90%; 
+            max-width:100%; 
             height: auto;
             margin:0 8px;
         }
