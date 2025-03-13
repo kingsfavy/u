@@ -25,11 +25,11 @@
 
 
         .scroll-up {
-            animation: scrollUp 0.8s ease-out forwards;
+            animation: scrollUp 0.8s 1.2s ease-out forwards;
         }
 
         .scroll-down {
-            animation: scrollDown 0.8s ease-in forwards;
+            animation: scrollDown 0.8s 1.2a ease-in forwards;
         }
 
 
