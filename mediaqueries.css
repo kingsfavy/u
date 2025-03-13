@@ -17,7 +17,7 @@
     }
     a:hover{
         cursor: pointer;
-        color: rgba(226, 65, 6, 0.979);
+        color: #8800ff;
         text-underline-offset: 10px;
         text-decoration: underline;
         font-weight: bolder;
