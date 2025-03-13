@@ -35,7 +35,7 @@
         width:100%;
     }
            #slide1, #slide2, #slide3 {
-            width: 270%; /* Each slide should match container width */
+            width: 245%; /* Each slide should match container width */
             height: auto;
             margin:0 8px;
         }
@@ -104,6 +104,11 @@
         #slide1, #slide2, #slide3 {
             width: 50%;
             height: auto;
+        }
+     #slide1, #slide2, #slide3 {
+            width: 245%; /* Each slide should match container width */
+            height: auto;
+            margin:0 8px;
         }
 
 }
