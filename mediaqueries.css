@@ -34,6 +34,11 @@
     .pro, .text-con, .mid, .flex{
         width:100%;
     }
+           #slide1, #slide2, #slide3 {
+            width: 270%; /* Each slide should match container width */
+            height: auto;
+            margin:0 8px;
+        }
     .mid{
         display: flex;
         justify-content: center;
