@@ -107,6 +107,9 @@
     .desktop{
         display:block;
     }
+    ul{
+        margin-top:10px;
+    }
     .profile-pic{
         width:400px;
         height:400px;
