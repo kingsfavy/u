@@ -95,16 +95,6 @@
     .text-con{
         margin-top:5%;
     }
-    /* .mid .profile-pic{
-        width:300px;
-        height: 300px;
-        border-radius: 9000px;
-    } */
-
-        #slide1, #slide2, #slide3 {
-            width: 50%;
-            height: auto;
-        }
      #slide1, #slide2, #slide3 {
             width: auto; /* Each slide should match container width */
             height: auto;
