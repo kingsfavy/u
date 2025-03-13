@@ -96,7 +96,7 @@
         margin-top:5%;
     }
      #slide1, #slide2, #slide3 {
-            width: auto; /* Each slide should match container width */
+            min-width:90%; 
             height: auto;
             margin:0 8px;
         }
