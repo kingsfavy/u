@@ -156,9 +156,9 @@
         transition: all 1s ease;
     }
     .profile-pic{
-        width:300px;
-        height:300px;
-        border-radius: 9000px;
+        width:200px;
+        height:200px;
+        border-radius: 4000px;
     }
     .pic{
         width:100%;
