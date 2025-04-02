@@ -36,7 +36,7 @@ body{
 }
 .contain{
     display:flex;
-    width:90%;
+    width:95%;
     height:auto;
     flex-wrap: wrap;
     align-content: center;
@@ -45,7 +45,7 @@ body{
 }
 .cont{
     display:flex;
-    width:90%;
+    width:95%;
     height:auto;
     flex-wrap: wrap;
     align-content: center;
@@ -54,7 +54,7 @@ body{
 }
 .con{
         display:flex;
-        width:90%;
+        width:95%;
         height:auto;
         flex-wrap: wrap;
         align-content: center;
