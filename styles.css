@@ -215,7 +215,8 @@ box-shadow: 0px 0px 0px 2px gray;
     display:flex;
     justify-content: center;
     align-content: center;
-     
+      margin:20px 0;
+    padding: 30px;
     border-radius: 10px;
 }
 
