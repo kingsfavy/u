@@ -84,6 +84,7 @@ slideInterval = setInterval(autoSlide, 3000);
 });
 
 
+    
 
 function form(){
 document.getElementById("modal").style.display="block";
@@ -145,6 +146,20 @@ startCounter("counter9", 100);
 startCounter("counter10", 100);
 startCounter("counter11", 100);
 startCounter("counter12", 80);
+
+startCounter("counter13", 100);
+startCounter("counter14", 80);
+startCounter("counter15", 60);
+startCounter("counter16", 50);
+startCounter("counter17", 80);
+startCounter("counter18", 80);
+startCounter("counter19", 80);
+startCounter("counter20", 80);
+startCounter("counter21", 100);
+startCounter("counter22", 100);
+startCounter("counter23", 100);
+startCounter("counter24", 80);
+startCounter("counter25", 80);
 
 document.addEventListener('scroll',function(){
 const reveals = document.querySelectorAll('reveal');
