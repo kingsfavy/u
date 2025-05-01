@@ -29,7 +29,6 @@
         display:flex;
         justify-content: center;
         align-content: center;
-
     } 
     .pro, .text-con, .mid, .flex{
         width:100%;
@@ -38,6 +37,11 @@
             width: 245%; /* Each slide should match container width */
             height: auto;
             margin:0 8px;
+        }
+        .landing-icon{
+            width:50px;
+            height:50px;
+            border:none;
         }
     .mid{
         display: flex;
@@ -138,6 +142,11 @@
     .text-con{
         margin-top:5%;
     }
+    .landing-icon{
+        width:100px;
+        height:100px;
+        border:none;
+    }
 }
 
 
@@ -172,5 +181,8 @@
     .ham{
         display: block;
         margin-top:3%;
+    }
+    .spacee{
+        height:0;
     }
 }
