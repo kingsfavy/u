@@ -77,6 +77,9 @@ body{
 .ke{
     font-weight: bolder;
     font-size: 1em;
+    background: linear-gradient(270deg ,  rgb(225, 24, 3, 0.979) ,rgb(225, 65, 6, 0.979));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .img{
     width:100%;
@@ -196,7 +199,7 @@ box-shadow: 0px 0px 0px 2px gray;
     gap:1.4rem;
 }
 .box-con, .box{
-    /* background: rgba(26, 24, 24, 0.877); */
+    background: rgba(26, 24, 24, 0.877);
     border-radius: 10px;
     background: rgba(5, 5, 5, 0.877);
 }
@@ -212,7 +215,9 @@ box-shadow: 0px 0px 0px 2px gray;
 }
 
 .box:hover{
-    box-shadow: 0px 0px 0px 2px gray;
+    border:  1px rgb(225, 24, 3, 0.979);
+    border-style: solid none;
+    transition: transform 2s ease-in-out forwards;
 }
 .box-one, .box-two{
     width: auto;
@@ -264,7 +269,9 @@ box-shadow: 0px 0px 0px 2px gray;
 .ham{
     width:30px;
     height:auto;
-    margin-top:5%;
+    margin-top:1%;
+    transform:rotate(-90deg);
+    
 }
 .hr{
     width:30px;
@@ -442,7 +449,7 @@ textarea{
     position:fixed;
     bottom:0;
     width:100%;
-    background:none;
+    background:#000;
     color:#fff;
     padding:1rem 0;
     }
@@ -513,3 +520,4 @@ textarea{
     img{
         filter:saturate(1)
     }
+  
