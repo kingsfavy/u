@@ -32,9 +32,6 @@ changeText(texts[current]);
 document.addEventListener('DOMContentLoaded', startScrolling);
 
 
-
-
-
 document.addEventListener('scroll', function() {
 const reveals = document.querySelectorAll('.reveal');
 
@@ -188,3 +185,6 @@ this.classList.add("active");
 
 const year = new Date().getFullYear();
 document.getElementById('year').innerText = year;
+
+
+// 
