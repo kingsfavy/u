@@ -101,10 +101,9 @@
         height:100%;
         border-radius: 100%;
     }
-    .dots{
-        display:none;
-    }
-
+    /* .dots{
+        display:flex;
+    } */
 }
 
 
