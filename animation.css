@@ -17,7 +17,7 @@
     animation: rotate alternate ease-in 2s 2.2s 1 both;
 }
 .neon-circle::before, .neon-circle2::before, .neon-circle3::before, .neon-circle4::before, .neon-circle5::before{
-    animation: glow 1s 2 alternate ease-in-out;
+    animation: glow 1s  alternate  infinite ease-in-out;
 }
 #nav{
     animation: nav ease-in alternate 0.8s 1 both;
