@@ -32,6 +32,7 @@
         display:flex;
         justify-content: center;
         align-content: center;
+          border:  1px rgb(225, 24, 3, 0.979);
     } 
     .pro, .text-con, .mid, .flex{
         width:100%;
