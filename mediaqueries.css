@@ -8,6 +8,10 @@
     .desktop{
         display:none;
     }
+    .icon-con{
+        width:30px;
+        height:30px;
+    }
     .align{
         display:flex;
         justify-content: flex-start;
