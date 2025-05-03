@@ -43,6 +43,27 @@ body{
     justify-content: center;
     gap:0.5rem;
 }
+.conten{
+    display:flexc;
+    justify-content: flex-start;
+    width:95%;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: 1.5em;
+}
+.align{
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#body{
+    background: #fff;
+    color:#000;
+}
+.dash{
+     list-style: dashed;
+}
 .cont{
     display:flex;
     width:95%;
@@ -401,7 +422,7 @@ box-shadow: 0px 0px 0px 2px gray;
     height:100px;
     border-radius:50px;
     background: rgba(5, 5, 5, 0.877);
-    object-fit:cover;
+    object-fit: cover;
 }
 .flex{
     display:flex;
@@ -522,3 +543,47 @@ textarea{
         filter:saturate(1)
     }
   
+/* 
+    .box {
+        position: relative;
+
+        border-radius: 20px;
+        overflow: hidden;
+        transition: 0.3s;
+      }
+  
+      .box::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: conic-gradient(from 0deg, #00f, #0ff, #0f0, #ff0, #f00, #f0f, #00f);
+        animation: rotate 2s linear infinite;
+        opacity: 0;
+        transition: opacity 0.3s;
+        z-index: 0;
+      }
+  
+      .box::after {
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        right: 2px;
+        bottom: 2px;
+        background: #111;
+        border-radius: 18px;
+        z-index: 1;
+      }
+  
+      .box:hover::before {
+        opacity: 1;
+      }
+  
+      @keyframes rotate {
+        to {
+          transform: rotate(360deg);
+        }
+      } */
