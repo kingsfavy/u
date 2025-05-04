@@ -64,6 +64,9 @@ body{
 .dash{
      list-style: dashed;
 }
+.bg-img{
+    filter:blur(5px);
+}
 .cont{
     display:flex;
     width:95%;
