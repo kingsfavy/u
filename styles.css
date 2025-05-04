@@ -148,6 +148,10 @@ box-shadow: 0px 0px 0px 2px gray;
     padding:8px 12px;
     border-radius: 5px;
 }
+.bg {
+    height: auto; /* Optional: makes sure it covers the full screen height */
+    width:100%;
+}
 
 .main{
     width:100%;
