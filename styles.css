@@ -68,7 +68,7 @@ body{
     filter:blur(5px);
     position:relative;
     z-index:0;
-    didplay:none;
+    display:none;
 }
 /*#home{
       position:absolute;
