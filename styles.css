@@ -68,12 +68,13 @@ body{
     filter:blur(5px);
     position:relative;
     z-index:0;
+    didplay:none;
 }
-#home{
+/*#home{
       position:absolute;
     z-index:10;
     width:100%;
-}
+}*/
 .cont{
     display:flex;
     width:95%;
