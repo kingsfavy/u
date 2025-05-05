@@ -22,13 +22,13 @@ body{
 .inner-bg{
     width:100%;
     height:auto;
-    position: relative;
+    position: absolute;
     z-index: 10;
 }
 .bg{
     width:100%;
     height:auto;
-    position:absolute;
+    position:relative;
     z-index: 0;
 }
 .header{
