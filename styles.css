@@ -10,6 +10,27 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     word-spacing: 2px;
 }
+.bg-img{
+    width:100%;
+    filter: blur(2px);
+    height:50vh;
+    object-fit: cover;
+}
+.inner-bg .name{
+    color:#fff;
+}
+.inner-bg{
+    width:100%;
+    height:auto;
+    position: relative;
+    z-index: 10;
+}
+.bg{
+    width:100%;
+    height:auto;
+    position:absolute;
+    z-index: 0;
+}
 .header{
     width:100%;
     height:auto;
