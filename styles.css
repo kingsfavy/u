@@ -514,6 +514,7 @@ textarea{
     background:#000;
     color:#fff;
     padding:1rem 0;
+    z-index:1000;
     }
     
     .contacts{
