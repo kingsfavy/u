@@ -5,6 +5,12 @@
     .mobile{
         display:block;
     }
+      .bg-img{
+        width:100%;
+        filter: blur(2px);
+        height:80vh;
+        object-fit: cover;
+    }
     .desktop{
         display:none;
     }
@@ -167,7 +173,6 @@
 }
 
 
-
 @media(width:768px){
     a{
         color: rgb(179, 171, 171);
@@ -201,5 +206,27 @@
     }
     .spacee{
         height:0;
+    }
+    .bg-img{
+        width:100%;
+        filter: blur(2px);
+        height:80vh;
+        object-fit: cover;
+    }
+}
+@media(width:375px){
+    .bg-img{
+        width:100%;
+        filter: blur(2px);
+        height:120vh;
+        object-fit: cover;
+    }
+}
+@media(width:1024px){
+    .bg-img{
+        width:100%;
+        filter: blur(2px);
+        height:160vh;
+        object-fit: cover;
     }
 }
