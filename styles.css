@@ -630,71 +630,42 @@ textarea{
       } */
 
 
-label {
-        box-shadow:3px 3px 3px solid black;
-        border-radius:5px;
-         display: block;
-         padding: 10px;
-         border-bottom: 1px solid black;
-         color: white;
-         background: #0076ff;
-         z-index: 1; 
-      }
-      label:hover{
-        background:green;
-      }
-      
-      .accordion:last-child > label, .accordion:last-child > .accordion-content {
-         border: none;
-      }
-      
-      .accordion-content {
-    display:flex;
-    flex-wrap:wrap;
-    width:100%;
-    justify-content:space-evenly;
-        -webkit-animation: bottom 1.5s normal  ease-in-out 0s 1 both;
-        border-radius:5px;
-        color:black;
-        flex:1;
-         border-bottom: 1px solid black;
-         padding: 0;
-         opacity: 0;
-         max-height:100px;
-         overflow: scroll;
-         z-index: -1;
-         transition: 0.4s linear;
 
-      }
-      input:checked ~ .accordion-content {
-         padding:25px;
-         text-align:left;
-         opacity: 1;
-         max-height:auto;
-         z-index: 0;
-         background-image:url("ani.jpg");
-      }
-    .a{
-      -webkit-animation: bottom 1.5s normal  0s 1 both;
-    }
-    .ac{
-      -webkit-animation: bottom 2s normal  0s 1 both;
-    }
-    .acc{
-      -webkit-animation: bottom 2.5s normal  0s 1 both;
-    }
-    .acco{
-      -webkit-animation: bottom 3s normal  0s 1 both;
-    }
-    .accor{
-      -webkit-animation: bottom 3.5s normal  0s 1 both;
-    }
-    .accord{
-  -webkit-animation: bottom 4s normal  0s 1 both;
-    }
-    .accordi{
-      -webkit-animation: bottom 4.5s normal  0s 1 both;
-    }
-    a:hover{
-    cursor:none;
-    }
+.accordion {
+  background-color: #f1f1f1;
+  color: #333;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.accordion:hover, .accordion.active {
+  background-color:#ddd;
+}
+
+.panel {
+  display: none;
+  overflow: hidden;
+  background-color:white;
+  padding: 15px 0;
+   margin:20px;
+}
+
+.image-flex {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-flex img {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  margin:10px;
+}
