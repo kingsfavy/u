@@ -651,7 +651,7 @@ textarea{
 .panel {
   display: none;
   overflow: hidden;
-  background-color:white;
+  background:none;
   padding: 15px 0;
    margin:20px;
 }
