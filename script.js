@@ -81,7 +81,15 @@ slideInterval = setInterval(autoSlide, 3000);
 });
 
 
-    
+ const acc = document.querySelectorAll(".accordion");
+
+acc.forEach(button => {
+  button.addEventListener("click", function () {
+    this.classList.toggle("active");
+    const panel = this.nextElementSibling;
+    panel.style.display = panel.style.display === "block"? "none" : "block"  ;
+  });
+});   
 
 function form(){
 document.getElementById("modal").style.display="block";
