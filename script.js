@@ -1,3 +1,15 @@
+
+
+const nav = document.getElementById("nav");
+
+  // Add click listener to all links inside nav
+  nav.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", () => {
+      nav.style.display = "none"; // hide the whole nav
+    });
+  });
+
+
 const texts = [
     'Seamless, ',
     'And Engaging Experiences.'
@@ -196,3 +208,4 @@ document.getElementById('year').innerText = year;
 
 
 // 
+
