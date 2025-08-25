@@ -1,4 +1,15 @@
 
+document.querySelectorAll(".whatsappBtn").forEach(button => {
+    button.addEventListener("click", function () {
+      // Replace with your WhatsApp number (use international format without + or leading zeros)
+      const phoneNumber = "2349032861602"; // Example: Nigeria number
+      const message = "Hello, I would like to connect with you!"; // Default message
+
+      // Redirect to WhatsApp
+      window.location.href = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    });
+  });
+
 
 const nav = document.getElementById("nav");
 
@@ -208,4 +219,5 @@ document.getElementById('year').innerText = year;
 
 
 // 
+
 
