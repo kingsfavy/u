@@ -114,8 +114,8 @@
         border-radius: 4000px;
     }
     .icon-con{
-        width:55px;
-        height:55px;
+        width:50px;
+        height:50px;
         object-fit:cover;
     }
     .pic{
@@ -235,5 +235,6 @@
         object-fit: cover;
     }
 }
+
 
 
