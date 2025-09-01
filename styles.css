@@ -676,6 +676,52 @@ textarea{
     transform:rotate(90deg);
 }
 
+ .videos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #000;
+      margin: 0;
+    }
+    video {
+      width: 45%;
+      height: auto;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    /* Modal Overlay */
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.9);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    .modal video {
+      width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+    .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+
 
 
 
