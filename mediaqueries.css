@@ -183,6 +183,10 @@
 
 
 @media(width:768px){
+        video{
+        width:90%;
+        height:200px;
+    }
     a{
         color: rgb(179, 171, 171);
         text-decoration: none;
@@ -239,6 +243,7 @@
         object-fit: cover;
     }
 }
+
 
 
 
