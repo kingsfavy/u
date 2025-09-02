@@ -132,7 +132,7 @@
 @media(min-width:768px){
     video{
         width:90%;
-        height:200px;
+        height:500px;
     }
     .ham{
         display:none;
@@ -243,6 +243,7 @@
         object-fit: cover;
     }
 }
+
 
 
 
