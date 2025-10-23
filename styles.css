@@ -159,11 +159,11 @@ a:hover{
     text-decoration: underline;
     font-weight: 400;
 }
-.btn{
+/*.btn{
     width:auto;
     height:40px;
     color:#fff;
-   /* background-color: rgb(225, 65, 6, 0.979);*/
+    background-color: rgb(225, 65, 6, 0.979);
     border:none;
     padding:8px 12px;
     border-radius: 5px;
@@ -190,13 +190,13 @@ a:hover{
     @keyframes moveBorder {
       0%   { background-position: 0% 50%; }
       100% { background-position: 100% 50%; }
-    }
+    }*/
 button:hover{
 cursor: pointer;
 font-weight: 500;
 box-shadow: 0px 0px 0px 2px gray;
 }
-.btn2{
+.btn2, .btn{
     width:auto;
     height:40px;
     color:#fff;
@@ -744,6 +744,7 @@ textarea{
       cursor: pointer;
       font-weight: bold;
     }
+
 
 
 
