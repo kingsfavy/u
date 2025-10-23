@@ -709,7 +709,7 @@ textarea{
       margin: 0;
     }
     video {
-      width: auto;
+      width: 90%;
       height: 300px;
       border-radius: 10px;
       cursor: pointer;
@@ -743,6 +743,7 @@ textarea{
       cursor: pointer;
       font-weight: bold;
     }
+
 
 
 
