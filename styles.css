@@ -163,7 +163,7 @@ a:hover{
     width:auto;
     height:40px;
     color:#fff;
-    background-color: rgb(225, 65, 6, 0.979);
+   /* background-color: rgb(225, 65, 6, 0.979);*/
     border:none;
     padding:8px 12px;
     border-radius: 5px;
@@ -743,6 +743,7 @@ textarea{
       cursor: pointer;
       font-weight: bold;
     }
+
 
 
 
