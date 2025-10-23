@@ -168,6 +168,7 @@ a:hover{
     padding:8px 12px;
     border-radius: 5px;
     position:relative;
+    background:none;
 }
   .btn::before {
       content: "";
@@ -743,6 +744,7 @@ textarea{
       cursor: pointer;
       font-weight: bold;
     }
+
 
 
 
