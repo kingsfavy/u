@@ -687,7 +687,7 @@ textarea{
       margin: 0;
     }
     video {
-      width: 45%;
+      width: auto;
       height: 300px;
       border-radius: 10px;
       cursor: pointer;
@@ -721,6 +721,7 @@ textarea{
       cursor: pointer;
       font-weight: bold;
     }
+
 
 
 
